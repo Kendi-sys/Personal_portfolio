@@ -49,3 +49,12 @@ margin: 0 10px;
 font-size: 18px;
 font-weight: 600;
 }
+
+/*Adding mediaresponsiveness*/
+@media (max-width: 768px) {
+nav {
+flex-direction: column;
+height: auto;
+padding: 20px;
+}
+}
