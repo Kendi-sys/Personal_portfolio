@@ -1,5 +1,5 @@
 /*CSS styling for the personal portfolio website*/
-
+/*Adding base styling*/
 :root{
 --text-color: #1a1c20
 --link-color: #4a76ee;
@@ -26,3 +26,26 @@ color: var(--link-color);
 text-decoration: none;
 }
 
+/*Styling the navigation bar so that navigation links are on the far left*/
+nav {
+display: flex;
+justify-content: space-between; /* Align items to the left and right edges of the nav bar */
+align-items: center;
+padding: 0 50px;
+height: 80px;
+}
+
+
+nav .left a{
+color: var(--text-color);
+font-size: 22px;
+font-weight: bold;
+}
+/*styling nav links on the right*/
+nav .right a
+{
+color: var(--text-color);
+margin: 0 10px;
+font-size: 18px;
+font-weight: 600;
+}
